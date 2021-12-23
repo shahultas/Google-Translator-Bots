@@ -1,0 +1,47 @@
+{
+    "name": "Google Translator Bot",
+    "description": "iam Google Translator Bot @pr0fess0r_99",
+    "stack": "container",
+    "keywords": [
+        "Telegram",
+        "Google",
+        "Translator",
+        "Bot"
+    ],
+    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "repository": "https://github.com/PR0FESS0R-99/Google-Translator-Bot",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DEV_ID": {
+            "description": "Telegram Id @MT_ID_Bot",
+            "value": ""
+        },
+        "DATABASE": {
+            "description": "Video Link https://youtu.be/gBLTsH-IXr0",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

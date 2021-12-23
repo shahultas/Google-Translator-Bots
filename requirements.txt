@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+googletrans==3.1.0a0
+requests
+motor
+aiofiles
+dnspython
